@@ -4,10 +4,6 @@ import java.util.Locale;
 
 import org.springframework.stereotype.Component;
 
-import com.singtel.animal.feature.Flyable;
-import com.singtel.animal.feature.Singable;
-import com.singtel.animal.feature.Swimmable;
-
 /**
  * 
  * @author birajmishra@hotmail.com

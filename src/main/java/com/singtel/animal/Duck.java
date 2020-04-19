@@ -5,9 +5,6 @@ import java.util.ResourceBundle;
 
 import org.springframework.stereotype.Component;
 
-import com.singtel.animal.constant.Constants;
-import com.singtel.animal.feature.Flyable;
-import com.singtel.animal.feature.Singable;
 import com.singtel.animal.feature.Swimmable;
 
 /**

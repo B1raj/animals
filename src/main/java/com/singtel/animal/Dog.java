@@ -5,8 +5,6 @@ import java.util.ResourceBundle;
 
 import org.springframework.stereotype.Component;
 
-import com.singtel.animal.constant.Constants;
-
 @Component
 public class Dog extends Animal{
 	

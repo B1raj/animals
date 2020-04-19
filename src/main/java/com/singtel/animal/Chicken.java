@@ -5,15 +5,22 @@ import java.util.ResourceBundle;
 
 import org.springframework.stereotype.Component;
 
+import lombok.Data;
+
 /**
  * 
  * @author birajmishra@hotmail.com
  *
  */
 @Component
+@Data
 public class Chicken extends Bird {
 
-	private static final boolean isMale =  false;
+	private boolean isMale;
+	
+	public Chicken(){ 
+		isMale = false;
+	}
 	
 	public void makeSound(Locale locale) { 
 		ResourceBundle bundleMessage = ResourceBundle.getBundle("messages", locale);
