@@ -6,7 +6,7 @@ public class Shark extends Fish {
 
 	Boolean eatsOtherFish;
 
-	Shark() {
+	public Shark() {
 		size = "Large";
 		color = Constants.Color.GREY.value();
 		eatsOtherFish = true;

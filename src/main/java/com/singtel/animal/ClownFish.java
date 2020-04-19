@@ -8,7 +8,7 @@ import lombok.Data;
 public class ClownFish extends Fish {
 	
 	Boolean makesJokes;
-	ClownFish() {
+	public ClownFish() {
 		size = "Small";
 		color = Constants.Color.ORANGE.value();
 		makesJokes = true;

@@ -22,8 +22,6 @@ public class Solution {
 
 	public void printAnimals() {
 		Animal animal = new Animal();
-		System.out.println("\n---Animal---");
-		animal.walk();
 
 		System.out.println("\n---Bird---");
 		Bird bird = new Bird();

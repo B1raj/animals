@@ -6,6 +6,7 @@ import java.util.ResourceBundle;
 import org.springframework.stereotype.Component;
 
 import lombok.Data;
+import lombok.Getter;
 
 /**
  * 
@@ -14,6 +15,7 @@ import lombok.Data;
  */
 @Component
 @Data
+@Getter
 public class Chicken extends Bird {
 
 	private boolean isMale;
