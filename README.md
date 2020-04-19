@@ -25,7 +25,7 @@ This is a spring boot project with a simple restful service which does the follo
  ```
 3. Solution Class is present in com.singtel.solution.Solution.java, Run this class as a main method to print the solution for question 1
 OR
-start the application as springboot-app and trigger http://localhost:8090/solution to print charecteristics of all animals
+start the application as springboot-app and trigger http://localhost:8090/animal/solution to print charecteristics of all animals
 
 
 4. Make rest service call to get count of animals.

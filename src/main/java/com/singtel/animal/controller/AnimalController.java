@@ -14,6 +14,7 @@ import com.singtel.animal.service.AnimalService;
 import com.singtel.animal.solution.Solution;
 
 @RestController
+@RequestMapping("/animal")
 public class AnimalController {
 
 	@Autowired
